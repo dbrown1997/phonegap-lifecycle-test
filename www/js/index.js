@@ -17,7 +17,7 @@ var launched_count = 0;
     // device APIs are available
     //
     function onDeviceReady() {
-		alert("Fuck Off");	//devise ready
+		alert("Device Ready");	//devise ready
         
 		document.addEventListener("resume", onResume, false);	//resume application
 		document.addEventListener("pause", onPause, false);	//pause application
