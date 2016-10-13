@@ -3,7 +3,7 @@ var resumed_count = 0;
 var launched_count = 0;
 
     function onLoad() {
-        document.addEventListener("deviceready", onDeviceReady, false);	<!--event Listener - check if devise is ready.
+        document.addEventListener("deviceready", onDeviceReady, false);	<!--event Listener - check if devise is ready.-->
 		console.log("device ready");
     }
 	
@@ -19,8 +19,8 @@ var launched_count = 0;
     function onDeviceReady() {
 		alert("Device Ready");	//devise ready
         
-		document.addEventListener("resume", onResume, false);	//resume application
-		document.addEventListener("pause", onPause, false);	//pause application
+		document.addEventListener("resume", onResume, false);	<!--resume application-->
+		document.addEventListener("pause", onPause, false);	<!--pause application-->
 		
 		launched_count++;
 		updateDisplay();
