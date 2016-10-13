@@ -3,7 +3,7 @@ var resumed_count = 0;
 var launched_count = 0;
 
     function onLoad() {
-        document.addEventListener("deviceready", onDeviceReady, false);	//event Listener - check if devise is ready.
+        document.addEventListener("deviceready", onDeviceReady, false);	<!--event Listener - check if devise is ready.
 		console.log("device ready");
     }
 	
