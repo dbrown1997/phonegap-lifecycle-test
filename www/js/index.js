@@ -39,3 +39,24 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
+
+	var key = "pen";
+	var value = "blue";
+	
+	var key = "window";
+	var value = "closed";
+
+	var key = "chair";
+	var value = "ocupied";
+
+	var key = "register";
+	var value = "signed";
+
+	var key = "phone";
+	var value = "on";
+
+		window.localStorage.setItem( key, value );
+	
+		var value = window.localStorage.getItem(key);
+
+		window.alert(key);
