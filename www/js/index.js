@@ -47,23 +47,51 @@ var launched_count = 0;
 			obj.salt;
 		
 		var data = [{
-    "name": "Polo mints",
+		"name": "Milkyway Bar",
         "calories": "1000",
         "fat": "100",
         "protein": "100",
         "carbohydrates": "800",
-}, {
-    "name": "Sausages",
+	}, {
+		"name": "Galaxy Bar",
         "calories": "10000",
         "fat": "343",
         "protein": "3434",
         "carbohydrates": "4343",
-}];
-var output = '';
-$.each(data, function (index, value) {
-    output += '<li>' + value.name + '</li>';
-});
-$('#searchFood').html(output).listview("refresh");
+	}
+	{
+		"name": "Bounty Bar",
+        "calories": "10",
+        "fat": "389",
+        "protein": "66634",
+        "carbohydrates": "99",
+	}
+	{
+		"name": "Twix Bar",
+        "calories": "10",
+        "fat": "389",
+        "protein": "66634",
+        "carbohydrates": "99",
+	}
+	{
+		"name": "Mars Bar",
+        "calories": "10",
+        "fat": "389",
+        "protein": "66634",
+        "carbohydrates": "99",
+	}
+	{
+		"name": "Nestle Bar",
+        "calories": "10",
+        "fat": "389",
+        "protein": "66634",
+        "carbohydrates": "99",
+	}];
+		var output = '';
+			$.each(data, function (index, value) {
+			output += '<li>' + value.name + '</li>';
+	});
+		$('#searchFood').html(output).listview("refresh");	
 		
     }
 	
