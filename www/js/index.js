@@ -37,14 +37,14 @@ var launched_count = 0;
 		var obj = JSON.parse(text);
 
 			document.getElementById("demo").innerHTML =
-			<h3>Name: </h3>obj.name + "<br>" +
-			<h3>Energy: </h3>obj.energy + "<br>" +
-			<h3>Fat: </h3>obj.fat + "<br>" +
-			<h3>Saturates: </h3>obj.saturates + "<br>" +
-			<h3>Carbohydrates: </h3>obj.carbohydrates + "<br>" +
-			<h3>Sugars: </h3>obj.sugars + "<br>" +
-			<h3>Protein: </h3>obj.protein + "<br>" +
-			<h3>Salt: </h3>obj.salt;
+			obj.name + "<br>" +
+			obj.energy + "<br>" +
+			obj.fat + "<br>" +
+			obj.saturates + "<br>" +
+			obj.carbohydrates + "<br>" +
+			obj.sugars + "<br>" +
+			obj.protein + "<br>" +
+			obj.salt;
 		
 		
     }
