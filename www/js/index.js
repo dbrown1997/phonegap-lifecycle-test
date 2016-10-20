@@ -78,7 +78,7 @@ var launched_count = 0;
 			obj.carbohydrates + "<br>" +
 			obj.sugars + "<br>" +
 			obj.protein + "<br>" +
-			obj.salt + "<br>";
+			obj.salt;
 
 
 
