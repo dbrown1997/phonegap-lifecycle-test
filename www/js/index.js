@@ -47,6 +47,12 @@ var launched_count = 0;
 			obj.salt;
 		
 		
+		{"chocolates":[
+    {"chocolateName":"Galaxy", "chocolateType":"Caramel Chocolate"},
+    {"chocolateName":"Cadbury", "chocolateType":"Dark Chocolate"},
+    {"chocolateName":"Milky Way", "chocolateType":"White Chocolate"}
+]}
+		
     }
 	
 	function updateDisplay() {
