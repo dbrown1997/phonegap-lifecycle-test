@@ -25,7 +25,7 @@ var launched_count = 0;
 	
 		var value = window.localStorage.getItem(key);
 
-		window.alert(key);
+		window.alert("CHOOSE YOUR FAVOURITE CHOCOLATE");
 
 		$(function () {          
 	    		$("#myText").text("Mobile Application");
