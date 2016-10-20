@@ -66,7 +66,7 @@ var launched_count = 0;
 		});
 
 
-		var text = '{"name":"Galaxy Counters", "energy":"2206", "fat":"28.9", "saturates":"17.3", "carbohydrates":"58.8", "sugars":"58.3", "protein":"7.1", "salt":"0.31"}';
+		var text = '{"name":"Galaxy Counters","energy":"2206","fat":"28.9","saturates":"17.3","carbohydrates":"58.8","sugars":"58.3","protein":"7.1","salt":"0.31"}';
 
 		var obj = JSON.parse(text);
 
