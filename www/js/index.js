@@ -60,3 +60,7 @@ var launched_count = 0;
 		var value = window.localStorage.getItem(key);
 
 		window.alert(key);
+
+		$(function () {          
+	    		$("#myText").text("Mobile Application");
+		});
