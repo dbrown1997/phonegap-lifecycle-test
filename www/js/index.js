@@ -37,7 +37,7 @@ var launched_count = 0;
 		var obj = JSON.parse(text);
 
 			document.getElementById("demo").innerHTML =
-			Name: obj.name + "<br>" +
+			obj.name + "<br>" +
 			obj.energy + "<br>" +
 			obj.fat + "<br>" +
 			obj.saturates + "<br>" +
