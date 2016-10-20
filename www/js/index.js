@@ -46,7 +46,24 @@ var launched_count = 0;
 			obj.protein + "<br>" +
 			obj.salt;
 		
-		
+		var data = [{
+    "name": "Polo mints",
+        "calories": "1000",
+        "fat": "100",
+        "protein": "100",
+        "carbohydrates": "800",
+}, {
+    "name": "Sausages",
+        "calories": "10000",
+        "fat": "343",
+        "protein": "3434",
+        "carbohydrates": "4343",
+}];
+var output = '';
+$.each(data, function (index, value) {
+    output += '<li>' + value.name + '</li>';
+});
+$('#searchFood').html(output).listview("refresh");
 		
     }
 	
