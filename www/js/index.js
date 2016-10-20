@@ -58,29 +58,25 @@ var launched_count = 0;
         "fat": "343",
         "protein": "3434",
         "carbohydrates": "4343",
-	}
-	{
+	},	{
 		"name": "Bounty Bar",
         "calories": "10",
         "fat": "389",
         "protein": "66634",
         "carbohydrates": "99",
-	}
-	{
+	},	{
 		"name": "Twix Bar",
         "calories": "10",
         "fat": "389",
         "protein": "66634",
         "carbohydrates": "99",
-	}
-	{
+	},	{
 		"name": "Mars Bar",
         "calories": "10",
         "fat": "389",
         "protein": "66634",
         "carbohydrates": "99",
-	}
-	{
+	},	{
 		"name": "Nestle Bar",
         "calories": "10",
         "fat": "389",
